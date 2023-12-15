@@ -35,5 +35,5 @@ print("\nCoca-Cola Data:")
 print(coca_cola_data.head())
 
 ## Preliminary  and Exploratory Analysis 
-The analysis is essentially  a linear regresion of a long range of dataset. The  important to do is to first check for correlational analysis. Thus was carried out to check pattern of association. 
+The analysis is essentially  a linear regression of a long range of datasets. The  important thing is to first check for correlational analysis. Thus was carried out to check the pattern of association. 
 

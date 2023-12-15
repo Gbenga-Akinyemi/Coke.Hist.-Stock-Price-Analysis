@@ -47,7 +47,7 @@ The analysis is essentially  a linear regression of a long range of datasets. Th
 ![correlation_visualization cc as independent  png](https://github.com/Gbenga-Akinyemi/Coke.Hist.-Stock-Price-Analysis/assets/102978818/5540f41e-7ef2-46fa-bdc8-78c20ce6504a) 
 
 
-In both analyses, Coca-Cola stock correlates SP500 at 0.94 positive. This  shows a strong  positive significant relationship. 
+In both analyses, Coca-Cola stock correlates with SP500 at 0.94 positive. This  shows a strong  positive significant relationship. 
 
 - Correlation with regression line further clearly depicts the direction of the association. 
 
@@ -56,6 +56,47 @@ In both analyses, Coca-Cola stock correlates SP500 at 0.94 positive. This  shows
 
 ## Regression Analysis 
 
-Analysis was done by switching  the role( switching the variables) at a time  when Coca-Cola stock price was treated as the X( the independent variable ) while SP 500 was taken as the dependent variable. In the second round of analysis, the roles were reversed. However, the result of the analysis prove to be same.
+Analysis was done by switching  the role( switching the variables) at a time  when Coca-Cola stock price was treated as the X( the independent variable ) while SP 500 was taken as the dependent variable. In the second round of analysis, the roles were reversed. However, the result of the analysis proved to be the same.
+
+![sp500_results](https://github.com/Gbenga-Akinyemi/Coke.Hist.-Stock-Price-Analysis/assets/102978818/cc56228c-cbdb-4066-b8ad-2c5d13d83eeb) 
+
+
+![coca_cola_results](https://github.com/Gbenga-Akinyemi/Coke.Hist.-Stock-Price-Analysis/assets/102978818/4d1258d9-3751-4823-b834-a4fdfc1683f1)
+
+
+The variables were switched to enrich the quality of the analysis. Theoretically, it might be difficult to emphatically establish which variable predicts the other among Coca-Cola  and SP500 which proxied the general market stock prices. However, common-sensically,  it could be safe to conclude that the general stock market might have some measure of impact over Coca- Coca-Cola stock prices.
+
+- Summary of regression analysis:
+
+#### Regression Results - Coca-Cola Closing Prices:
+
+- **R-squared:** 0.887 (implies 88.7% explanatory power)
+- **F-statistic:** Highly significant (p < 0.05)
+- **Intercept:** 2.6242 (Estimated Coca-Cola closing price when S&P 500 is zero)
+- **SP500_Close Coefficient:** 0.0161 (On average, each one-unit increase in S&P 500 corresponds to a 0.0161 increase in Coca-Cola closing prices)
+
+#### Regression Results - S&P 500 Closing Prices:
+
+- **R-squared:** 0.887 (implies 88.7% explanatory power)
+- **F-statistic:** Highly significant (p < 0.05)
+- **Intercept:** -40.5312 (Estimated S&P 500 closing price when Coca-Cola is zero)
+- **CocaCola_Close Coefficient:** 55.2114 (On average, each one-unit increase in Coca-Cola corresponds to a 55.2114 increase in S&P 500 closing prices)
+
+####  Overall Interpretation:
+
+Both models exhibit high explanatory power and statistical significance over each other. The positive coefficients indicate a positive relationship. Please remember, that this has already been pointed to by the preliminary analysis, the correlation. As the S&P 500 increases, Coca-Cola closing prices tend to increase, and vice versa. This suggests potential interdependence between Coca-Cola and the broader market. 
+
+## Conclusion 
+Thus, further research is needed to understand the foundational connection between  Coca-Cola Stock prices and SP500. 
+
+
+## References 
+1. Coca-Cola Historical Stock prices (1961 to date) [Download from here](https://www.kaggle.com/datasets/henryshan/coca-cola-stock-price)
+2. Yahoo Finance/ Python yfinance library 
+
+
+
+
+
 
 

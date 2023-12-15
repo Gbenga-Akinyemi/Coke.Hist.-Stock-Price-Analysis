@@ -37,3 +37,23 @@ print(coca_cola_data.head())
 ## Preliminary  and Exploratory Analysis 
 The analysis is essentially  a linear regression of a long range of datasets. The  important thing is to first check for correlational analysis. Thus was carried out to check the pattern of association. 
 
+- correlation where Coca-Cola stock price is the x(independent variable)
+  
+![correlation_plot](https://github.com/Gbenga-Akinyemi/Coke.Hist.-Stock-Price-Analysis/assets/102978818/1fd61126-f258-4768-8211-6bcd3c65e4dd) 
+
+- Correction where Coca-Cola stock price is the y(dependent variable)
+  
+![correlation_visualization cc as independent  png](https://github.com/Gbenga-Akinyemi/Coke.Hist.-Stock-Price-Analysis/assets/102978818/5540f41e-7ef2-46fa-bdc8-78c20ce6504a) 
+
+In both analyses, Coca-Cola stock correlates SP500 at 0.94 positive. This  shows a strong  positive significant relationship. 
+
+- Correlation with regression line further clearly depicts the direction of the association. 
+
+
+![regression_plot](https://github.com/Gbenga-Akinyemi/Coke.Hist.-Stock-Price-Analysis/assets/102978818/241796b2-b49f-434a-8bc8-1da0bdd44c69) 
+
+## Regression Analysis 
+
+Analysis was done by switching  the role( switching the variables) at a time  when Coca-Cola stock price was treated as the X( the independent variable ) while SP 500 was taken as the dependent variable. In the second round of analysis, the roles were reversed. However, the result of the analysis prove to be same.
+
+
